@@ -1,6 +1,6 @@
 {
   "name": "INND Anchor",
-  "short_name": "Фундамент",
+  "short_name": "Anchor",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
