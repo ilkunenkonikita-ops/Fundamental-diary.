@@ -3364,3 +3364,11 @@ body.kb .botfab { opacity: 0; transform: scale(.6); pointer-events: none; }
   boot();
 })();
 </script>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./sw.js')
+    .catch(function (error) {
+      console.error('Service Worker error:', error);
+    });
+}
+</script>
